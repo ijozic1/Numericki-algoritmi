@@ -1,0 +1,1094 @@
+{
+    "buildhost_description": {
+        "id": "gcloud",
+        "os": "Linux 5.10.0-18-cloud-amd64 x86_64\nDebian GNU/Linux 11 (bullseye)\n"
+    },
+    "tools": {
+        "compile": "10.2.1 20210110",
+        "compile[debug]": "10.2.1 20210110",
+        "debug": "10.1.90.20210103-git",
+        "profile[memcheck]": "valgrind-3.16.1",
+        "profile[sgcheck]": "valgrind-3.16.1"
+    },
+    "status": 4,
+    "test_results": {
+        "123": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "patch": {
+                    "success": true
+                },
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 10,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "1 1 1",
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 8,
+                    "output": "==814573== Memcheck, a memory error detector\n==814573== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.\n==814573== Using Valgrind-3.16.1 and LibVEX; rerun with -h for copyright info\n==814573== Command: outputOWUuxQ\n==814573==\n====START_TEST_7283====1 1 1====END_TEST_7283======814573==\n==814573== HEAP SUMMARY:\n==814573==     in use at exit: 0 bytes in 0 blocks\n==814573==   total heap usage: 2 allocs, 2 frees, 76,800 bytes allocated\n==814573==\n==814573== All heap blocks were freed -- no leaks are possible\n==814573==\n==814573== For lists of detected and suppressed errors, rerun with: -s\n==814573== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "valgrind: failed to start tool 'exp-sgcheck' for platform 'amd64-linux': No such file or directory",
+                    "exit_code": 1,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "124": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "patch": {
+                    "success": true
+                },
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 11,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "1 1 1",
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 7,
+                    "output": "==814599== Memcheck, a memory error detector\n==814599== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.\n==814599== Using Valgrind-3.16.1 and LibVEX; rerun with -h for copyright info\n==814599== Command: outputLcNhGP\n==814599==\n====START_TEST_271====1 1 1====END_TEST_271======814599==\n==814599== HEAP SUMMARY:\n==814599==     in use at exit: 0 bytes in 0 blocks\n==814599==   total heap usage: 2 allocs, 2 frees, 76,800 bytes allocated\n==814599==\n==814599== All heap blocks were freed -- no leaks are possible\n==814599==\n==814599== For lists of detected and suppressed errors, rerun with: -s\n==814599== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "valgrind: failed to start tool 'exp-sgcheck' for platform 'amd64-linux': No such file or directory",
+                    "exit_code": 1,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "125": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "patch": {
+                    "success": true
+                },
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 9,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "0",
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 8,
+                    "output": "==814625== Memcheck, a memory error detector\n==814625== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.\n==814625== Using Valgrind-3.16.1 and LibVEX; rerun with -h for copyright info\n==814625== Command: outputeElhvR\n==814625==\n====START_TEST_7427====0====END_TEST_7427======814625==\n==814625== HEAP SUMMARY:\n==814625==     in use at exit: 0 bytes in 0 blocks\n==814625==   total heap usage: 2 allocs, 2 frees, 76,800 bytes allocated\n==814625==\n==814625== All heap blocks were freed -- no leaks are possible\n==814625==\n==814625== For lists of detected and suppressed errors, rerun with: -s\n==814625== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "valgrind: failed to start tool 'exp-sgcheck' for platform 'amd64-linux': No such file or directory",
+                    "exit_code": 1,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "126": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "patch": {
+                    "success": true
+                },
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 11,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "'Invalid parameters'\n'Invalid parameters'\n'Invalid parameters'",
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 7,
+                    "output": "==814655== Memcheck, a memory error detector\n==814655== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.\n==814655== Using Valgrind-3.16.1 and LibVEX; rerun with -h for copyright info\n==814655== Command: output6cDRFS\n==814655==\n====START_TEST_5769===='Invalid parameters'\n'Invalid parameters'\n'Invalid parameters'====END_TEST_5769======814655==\n==814655== HEAP SUMMARY:\n==814655==     in use at exit: 0 bytes in 0 blocks\n==814655==   total heap usage: 8 allocs, 8 frees, 77,361 bytes allocated\n==814655==\n==814655== All heap blocks were freed -- no leaks are possible\n==814655==\n==814655== For lists of detected and suppressed errors, rerun with: -s\n==814655== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "valgrind: failed to start tool 'exp-sgcheck' for platform 'amd64-linux': No such file or directory",
+                    "exit_code": 1,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "127": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "patch": {
+                    "success": true
+                },
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 11,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "3\n'Given accuracy has not achieved'",
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 9,
+                    "output": "==814681== Memcheck, a memory error detector\n==814681== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.\n==814681== Using Valgrind-3.16.1 and LibVEX; rerun with -h for copyright info\n==814681== Command: outputDmw2JR\n==814681==\n====START_TEST_3587====3\n'Given accuracy has not achieved'====END_TEST_3587======814681==\n==814681== HEAP SUMMARY:\n==814681==     in use at exit: 0 bytes in 0 blocks\n==814681==   total heap usage: 5 allocs, 5 frees, 77,144 bytes allocated\n==814681==\n==814681== All heap blocks were freed -- no leaks are possible\n==814681==\n==814681== For lists of detected and suppressed errors, rerun with: -s\n==814681== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "valgrind: failed to start tool 'exp-sgcheck' for platform 'amd64-linux': No such file or directory",
+                    "exit_code": 1,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "128": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "patch": {
+                    "success": true
+                },
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 10,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "3\n'Given accuracy has not achieved'",
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 8,
+                    "output": "==814707== Memcheck, a memory error detector\n==814707== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.\n==814707== Using Valgrind-3.16.1 and LibVEX; rerun with -h for copyright info\n==814707== Command: outputcHjOZR\n==814707==\n====START_TEST_9246====3\n'Given accuracy has not achieved'====END_TEST_9246======814707==\n==814707== HEAP SUMMARY:\n==814707==     in use at exit: 0 bytes in 0 blocks\n==814707==   total heap usage: 5 allocs, 5 frees, 77,144 bytes allocated\n==814707==\n==814707== All heap blocks were freed -- no leaks are possible\n==814707==\n==814707== For lists of detected and suppressed errors, rerun with: -s\n==814707== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "valgrind: failed to start tool 'exp-sgcheck' for platform 'amd64-linux': No such file or directory",
+                    "exit_code": 1,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "129": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "patch": {
+                    "success": true
+                },
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 10,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "3\n'Given accuracy has not achieved'",
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 8,
+                    "output": "==814735== Memcheck, a memory error detector\n==814735== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.\n==814735== Using Valgrind-3.16.1 and LibVEX; rerun with -h for copyright info\n==814735== Command: outputNyX87Q\n==814735==\n====START_TEST_7645====3\n'Given accuracy has not achieved'====END_TEST_7645======814735==\n==814735== HEAP SUMMARY:\n==814735==     in use at exit: 0 bytes in 0 blocks\n==814735==   total heap usage: 6 allocs, 6 frees, 77,288 bytes allocated\n==814735==\n==814735== All heap blocks were freed -- no leaks are possible\n==814735==\n==814735== For lists of detected and suppressed errors, rerun with: -s\n==814735== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "valgrind: failed to start tool 'exp-sgcheck' for platform 'amd64-linux': No such file or directory",
+                    "exit_code": 1,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "130": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "patch": {
+                    "success": true
+                },
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 10,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "3\n'Given accuracy has not achieved'",
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 9,
+                    "output": "==814763== Memcheck, a memory error detector\n==814763== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.\n==814763== Using Valgrind-3.16.1 and LibVEX; rerun with -h for copyright info\n==814763== Command: outputuAsegQ\n==814763==\n====START_TEST_2004====3\n'Given accuracy has not achieved'====END_TEST_2004======814763==\n==814763== HEAP SUMMARY:\n==814763==     in use at exit: 0 bytes in 0 blocks\n==814763==   total heap usage: 6 allocs, 6 frees, 77,288 bytes allocated\n==814763==\n==814763== All heap blocks were freed -- no leaks are possible\n==814763==\n==814763== For lists of detected and suppressed errors, rerun with: -s\n==814763== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "valgrind: failed to start tool 'exp-sgcheck' for platform 'amd64-linux': No such file or directory",
+                    "exit_code": 1,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "131": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "patch": {
+                    "success": true
+                },
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 11,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "'Root must be bracketed'\n'Invalid parameters'\n'Invalid parameters'",
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 8,
+                    "output": "==814789== Memcheck, a memory error detector\n==814789== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.\n==814789== Using Valgrind-3.16.1 and LibVEX; rerun with -h for copyright info\n==814789== Command: outputmXQbdT\n==814789==\n====START_TEST_6723===='Root must be bracketed'\n'Invalid parameters'\n'Invalid parameters'====END_TEST_6723======814789==\n==814789== HEAP SUMMARY:\n==814789==     in use at exit: 0 bytes in 0 blocks\n==814789==   total heap usage: 8 allocs, 8 frees, 77,365 bytes allocated\n==814789==\n==814789== All heap blocks were freed -- no leaks are possible\n==814789==\n==814789== For lists of detected and suppressed errors, rerun with: -s\n==814789== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "valgrind: failed to start tool 'exp-sgcheck' for platform 'amd64-linux': No such file or directory",
+                    "exit_code": 1,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "132": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "patch": {
+                    "success": true
+                },
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 10,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "3\n'Given accuracy has not achieved'",
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 9,
+                    "output": "==814815== Memcheck, a memory error detector\n==814815== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.\n==814815== Using Valgrind-3.16.1 and LibVEX; rerun with -h for copyright info\n==814815== Command: output9MLmPR\n==814815==\n====START_TEST_4646====3\n'Given accuracy has not achieved'====END_TEST_4646======814815==\n==814815== HEAP SUMMARY:\n==814815==     in use at exit: 0 bytes in 0 blocks\n==814815==   total heap usage: 4 allocs, 4 frees, 77,000 bytes allocated\n==814815==\n==814815== All heap blocks were freed -- no leaks are possible\n==814815==\n==814815== For lists of detected and suppressed errors, rerun with: -s\n==814815== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "valgrind: failed to start tool 'exp-sgcheck' for platform 'amd64-linux': No such file or directory",
+                    "exit_code": 1,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "133": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "patch": {
+                    "success": true
+                },
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 10,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "'Root must be bracketed'\n'Invalid parameters'\n'Invalid parameters'",
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 8,
+                    "output": "==814843== Memcheck, a memory error detector\n==814843== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.\n==814843== Using Valgrind-3.16.1 and LibVEX; rerun with -h for copyright info\n==814843== Command: outputxykmjT\n==814843==\n====START_TEST_8260===='Root must be bracketed'\n'Invalid parameters'\n'Invalid parameters'====END_TEST_8260======814843==\n==814843== HEAP SUMMARY:\n==814843==     in use at exit: 0 bytes in 0 blocks\n==814843==   total heap usage: 8 allocs, 8 frees, 77,365 bytes allocated\n==814843==\n==814843== All heap blocks were freed -- no leaks are possible\n==814843==\n==814843== For lists of detected and suppressed errors, rerun with: -s\n==814843== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "valgrind: failed to start tool 'exp-sgcheck' for platform 'amd64-linux': No such file or directory",
+                    "exit_code": 1,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "134": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "patch": {
+                    "success": true
+                },
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 11,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "1.41421",
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 8,
+                    "output": "==814871== Memcheck, a memory error detector\n==814871== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.\n==814871== Using Valgrind-3.16.1 and LibVEX; rerun with -h for copyright info\n==814871== Command: outputySBliS\n==814871==\n====START_TEST_5988====1.41421\n====END_TEST_5988======814871==\n==814871== HEAP SUMMARY:\n==814871==     in use at exit: 0 bytes in 0 blocks\n==814871==   total heap usage: 2 allocs, 2 frees, 76,800 bytes allocated\n==814871==\n==814871== All heap blocks were freed -- no leaks are possible\n==814871==\n==814871== For lists of detected and suppressed errors, rerun with: -s\n==814871== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "valgrind: failed to start tool 'exp-sgcheck' for platform 'amd64-linux': No such file or directory",
+                    "exit_code": 1,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "135": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "patch": {
+                    "success": true
+                },
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 10,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "1 1 0",
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 7,
+                    "output": "==814897== Memcheck, a memory error detector\n==814897== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.\n==814897== Using Valgrind-3.16.1 and LibVEX; rerun with -h for copyright info\n==814897== Command: outputxmfZ7R\n==814897==\n====START_TEST_9532====1 1 0====END_TEST_9532======814897==\n==814897== HEAP SUMMARY:\n==814897==     in use at exit: 0 bytes in 0 blocks\n==814897==   total heap usage: 2 allocs, 2 frees, 76,800 bytes allocated\n==814897==\n==814897== All heap blocks were freed -- no leaks are possible\n==814897==\n==814897== For lists of detected and suppressed errors, rerun with: -s\n==814897== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "valgrind: failed to start tool 'exp-sgcheck' for platform 'amd64-linux': No such file or directory",
+                    "exit_code": 1,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "136": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "patch": {
+                    "success": true
+                },
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 9,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "'Invalid parameters'",
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 7,
+                    "output": "==814923== Memcheck, a memory error detector\n==814923== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.\n==814923== Using Valgrind-3.16.1 and LibVEX; rerun with -h for copyright info\n==814923== Command: outputQxLewQ\n==814923==\n====START_TEST_3435===='Invalid parameters'====END_TEST_3435======814923==\n==814923== HEAP SUMMARY:\n==814923==     in use at exit: 0 bytes in 0 blocks\n==814923==   total heap usage: 4 allocs, 4 frees, 76,987 bytes allocated\n==814923==\n==814923== All heap blocks were freed -- no leaks are possible\n==814923==\n==814923== For lists of detected and suppressed errors, rerun with: -s\n==814923== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "valgrind: failed to start tool 'exp-sgcheck' for platform 'amd64-linux': No such file or directory",
+                    "exit_code": 1,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "137": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "patch": {
+                    "success": true
+                },
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 10,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "1\n1\n1",
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 8,
+                    "output": "==814951== Memcheck, a memory error detector\n==814951== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.\n==814951== Using Valgrind-3.16.1 and LibVEX; rerun with -h for copyright info\n==814951== Command: outputMrnPhR\n==814951==\n====START_TEST_5939====1\n1\n1\n====END_TEST_5939======814951==\n==814951== HEAP SUMMARY:\n==814951==     in use at exit: 0 bytes in 0 blocks\n==814951==   total heap usage: 9 allocs, 9 frees, 77,152 bytes allocated\n==814951==\n==814951== All heap blocks were freed -- no leaks are possible\n==814951==\n==814951== For lists of detected and suppressed errors, rerun with: -s\n==814951== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "valgrind: failed to start tool 'exp-sgcheck' for platform 'amd64-linux': No such file or directory",
+                    "exit_code": 1,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "138": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "patch": {
+                    "success": true
+                },
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 10,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "1\n1\n1",
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 8,
+                    "output": "==814978== Memcheck, a memory error detector\n==814978== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.\n==814978== Using Valgrind-3.16.1 and LibVEX; rerun with -h for copyright info\n==814978== Command: outputXzFpVR\n==814978==\n====START_TEST_7427====1\n1\n1\n====END_TEST_7427======814978==\n==814978== HEAP SUMMARY:\n==814978==     in use at exit: 0 bytes in 0 blocks\n==814978==   total heap usage: 9 allocs, 9 frees, 77,152 bytes allocated\n==814978==\n==814978== All heap blocks were freed -- no leaks are possible\n==814978==\n==814978== For lists of detected and suppressed errors, rerun with: -s\n==814978== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "valgrind: failed to start tool 'exp-sgcheck' for platform 'amd64-linux': No such file or directory",
+                    "exit_code": 1,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "139": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "patch": {
+                    "success": true
+                },
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 10,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "1\n1\n1",
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 8,
+                    "output": "==815004== Memcheck, a memory error detector\n==815004== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.\n==815004== Using Valgrind-3.16.1 and LibVEX; rerun with -h for copyright info\n==815004== Command: outputO2asES\n==815004==\n====START_TEST_1157====1\n1\n1\n====END_TEST_1157======815004==\n==815004== HEAP SUMMARY:\n==815004==     in use at exit: 0 bytes in 0 blocks\n==815004==   total heap usage: 9 allocs, 9 frees, 77,152 bytes allocated\n==815004==\n==815004== All heap blocks were freed -- no leaks are possible\n==815004==\n==815004== For lists of detected and suppressed errors, rerun with: -s\n==815004== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "valgrind: failed to start tool 'exp-sgcheck' for platform 'amd64-linux': No such file or directory",
+                    "exit_code": 1,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "140": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "patch": {
+                    "success": true
+                },
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 11,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "1\n1\n1",
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 8,
+                    "output": "==815032== Memcheck, a memory error detector\n==815032== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.\n==815032== Using Valgrind-3.16.1 and LibVEX; rerun with -h for copyright info\n==815032== Command: outputZUJihS\n==815032==\n====START_TEST_4455====1\n1\n1\n====END_TEST_4455======815032==\n==815032== HEAP SUMMARY:\n==815032==     in use at exit: 0 bytes in 0 blocks\n==815032==   total heap usage: 9 allocs, 9 frees, 77,056 bytes allocated\n==815032==\n==815032== All heap blocks were freed -- no leaks are possible\n==815032==\n==815032== For lists of detected and suppressed errors, rerun with: -s\n==815032== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "valgrind: failed to start tool 'exp-sgcheck' for platform 'amd64-linux': No such file or directory",
+                    "exit_code": 1,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "141": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "patch": {
+                    "success": true
+                },
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 11,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "1\n1\n1",
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 8,
+                    "output": "==815058== Memcheck, a memory error detector\n==815058== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.\n==815058== Using Valgrind-3.16.1 and LibVEX; rerun with -h for copyright info\n==815058== Command: outputB3SECS\n==815058==\n====START_TEST_2835====1\n1\n1\n====END_TEST_2835======815058==\n==815058== HEAP SUMMARY:\n==815058==     in use at exit: 0 bytes in 0 blocks\n==815058==   total heap usage: 9 allocs, 9 frees, 77,056 bytes allocated\n==815058==\n==815058== All heap blocks were freed -- no leaks are possible\n==815058==\n==815058== For lists of detected and suppressed errors, rerun with: -s\n==815058== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "valgrind: failed to start tool 'exp-sgcheck' for platform 'amd64-linux': No such file or directory",
+                    "exit_code": 1,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "142": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "patch": {
+                    "success": true
+                },
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 10,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "1\n1\n1\n1",
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 8,
+                    "output": "==815085== Memcheck, a memory error detector\n==815085== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.\n==815085== Using Valgrind-3.16.1 and LibVEX; rerun with -h for copyright info\n==815085== Command: outputU6h1NP\n==815085==\n====START_TEST_230====1\n1\n1\n1\n====END_TEST_230======815085==\n==815085== HEAP SUMMARY:\n==815085==     in use at exit: 0 bytes in 0 blocks\n==815085==   total heap usage: 9 allocs, 9 frees, 77,096 bytes allocated\n==815085==\n==815085== All heap blocks were freed -- no leaks are possible\n==815085==\n==815085== For lists of detected and suppressed errors, rerun with: -s\n==815085== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "valgrind: failed to start tool 'exp-sgcheck' for platform 'amd64-linux': No such file or directory",
+                    "exit_code": 1,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "143": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "patch": {
+                    "success": true
+                },
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 10,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "'Convergence has not achieved'\n'Invalid parameters'\n'Invalid parameters'\n'Invalid parameters'",
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 9,
+                    "output": "==815111== Memcheck, a memory error detector\n==815111== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.\n==815111== Using Valgrind-3.16.1 and LibVEX; rerun with -h for copyright info\n==815111== Command: outputZEwJWR\n==815111==\n====START_TEST_1737===='Convergence has not achieved'\n'Invalid parameters'\n'Invalid parameters'\n'Invalid parameters'====END_TEST_1737======815111==\n==815111== HEAP SUMMARY:\n==815111==     in use at exit: 0 bytes in 0 blocks\n==815111==   total heap usage: 16 allocs, 16 frees, 77,942 bytes allocated\n==815111==\n==815111== All heap blocks were freed -- no leaks are possible\n==815111==\n==815111== For lists of detected and suppressed errors, rerun with: -s\n==815111== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "valgrind: failed to start tool 'exp-sgcheck' for platform 'amd64-linux': No such file or directory",
+                    "exit_code": 1,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "144": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "patch": {
+                    "success": true
+                },
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 10,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "'Convergence has not achieved'\n'Invalid parameters'\n'Invalid parameters'\n'Invalid parameters'",
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 8,
+                    "output": "==815139== Memcheck, a memory error detector\n==815139== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.\n==815139== Using Valgrind-3.16.1 and LibVEX; rerun with -h for copyright info\n==815139== Command: outputtoT7vT\n==815139==\n====START_TEST_5457===='Convergence has not achieved'\n'Invalid parameters'\n'Invalid parameters'\n'Invalid parameters'====END_TEST_5457======815139==\n==815139== HEAP SUMMARY:\n==815139==     in use at exit: 0 bytes in 0 blocks\n==815139==   total heap usage: 16 allocs, 16 frees, 77,750 bytes allocated\n==815139==\n==815139== All heap blocks were freed -- no leaks are possible\n==815139==\n==815139== For lists of detected and suppressed errors, rerun with: -s\n==815139== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "valgrind: failed to start tool 'exp-sgcheck' for platform 'amd64-linux': No such file or directory",
+                    "exit_code": 1,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "145": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "patch": {
+                    "success": true
+                },
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 10,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "'Invalid parameters'\n'Invalid parameters'\n'Invalid parameters'",
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 8,
+                    "output": "==815165== Memcheck, a memory error detector\n==815165== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.\n==815165== Using Valgrind-3.16.1 and LibVEX; rerun with -h for copyright info\n==815165== Command: outputSp5fIP\n==815165==\n====START_TEST_7672===='Invalid parameters'\n'Invalid parameters'\n'Invalid parameters'====END_TEST_7672======815165==\n==815165== HEAP SUMMARY:\n==815165==     in use at exit: 0 bytes in 0 blocks\n==815165==   total heap usage: 8 allocs, 8 frees, 77,361 bytes allocated\n==815165==\n==815165== All heap blocks were freed -- no leaks are possible\n==815165==\n==815165== For lists of detected and suppressed errors, rerun with: -s\n==815165== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "valgrind: failed to start tool 'exp-sgcheck' for platform 'amd64-linux': No such file or directory",
+                    "exit_code": 1,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "146": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "patch": {
+                    "success": true
+                },
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 10,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "status": 1,
+                    "duration": 1,
+                    "output": "'Convergence has not achieved'",
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 7,
+                    "output": "==815191== Memcheck, a memory error detector\n==815191== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.\n==815191== Using Valgrind-3.16.1 and LibVEX; rerun with -h for copyright info\n==815191== Command: outputyEiZpR\n==815191==\n====START_TEST_5651===='Convergence has not achieved'====END_TEST_5651======815191==\n==815191== HEAP SUMMARY:\n==815191==     in use at exit: 0 bytes in 0 blocks\n==815191==   total heap usage: 4 allocs, 4 frees, 76,997 bytes allocated\n==815191==\n==815191== All heap blocks were freed -- no leaks are possible\n==815191==\n==815191== For lists of detected and suppressed errors, rerun with: -s\n==815191== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "valgrind: failed to start tool 'exp-sgcheck' for platform 'amd64-linux': No such file or directory",
+                    "exit_code": 1,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        },
+        "147": {
+            "success": true,
+            "status": 1,
+            "tools": {
+                "patch": {
+                    "success": true
+                },
+                "compile[debug]": {
+                    "status": 1,
+                    "duration": 10,
+                    "output": "",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "execute": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "1",
+                    "exit_code": 0,
+                    "success": true
+                },
+                "debug": {
+                    "success": true
+                },
+                "profile[memcheck]": {
+                    "status": 1,
+                    "duration": 7,
+                    "output": "==815219== Memcheck, a memory error detector\n==815219== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.\n==815219== Using Valgrind-3.16.1 and LibVEX; rerun with -h for copyright info\n==815219== Command: outputTrNMrS\n==815219==\n====START_TEST_498====1====END_TEST_498======815219==\n==815219== HEAP SUMMARY:\n==815219==     in use at exit: 0 bytes in 0 blocks\n==815219==   total heap usage: 2 allocs, 2 frees, 76,800 bytes allocated\n==815219==\n==815219== All heap blocks were freed -- no leaks are possible\n==815219==\n==815219== For lists of detected and suppressed errors, rerun with: -s\n==815219== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)",
+                    "exit_code": 0,
+                    "success": true,
+                    "parsed_output": []
+                },
+                "profile[sgcheck]": {
+                    "status": 1,
+                    "duration": 0,
+                    "output": "valgrind: failed to start tool 'exp-sgcheck' for platform 'amd64-linux': No such file or directory",
+                    "exit_code": 1,
+                    "success": true,
+                    "parsed_output": []
+                }
+            }
+        }
+    },
+    "time": 1706213316,
+    "program_id": 24476,
+    "task_id": "83308"
+}
