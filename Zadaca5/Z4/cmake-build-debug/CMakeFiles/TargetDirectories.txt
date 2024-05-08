@@ -1,3 +1,0 @@
-C:/Users/aa/Desktop/Ivona/ETF/3. Semestar/Numerički algoritmi/NA_zadace_c9/Zadaca5/Z4/cmake-build-debug/CMakeFiles/Z4.dir
-C:/Users/aa/Desktop/Ivona/ETF/3. Semestar/Numerički algoritmi/NA_zadace_c9/Zadaca5/Z4/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/aa/Desktop/Ivona/ETF/3. Semestar/Numerički algoritmi/NA_zadace_c9/Zadaca5/Z4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
