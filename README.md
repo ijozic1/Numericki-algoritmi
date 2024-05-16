@@ -1,2 +1,2 @@
 # Numericki-algoritmi
-Repository for course at Faculty of Electrical Engineering in Sarajevo 
+Repository for a course at Faculty of Electrical Engineering in Sarajevo 
